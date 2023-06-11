@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+.icon {
+  height: 50%;
+  width: 50%;
+}
+.head {
+  font-size: 31px;
+  font-weight: 900;
+}
+.para {
+  font-size: 25px;
+  font-weight: 500;
+}
+.button {
+  height: 40px;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  margin: 20px;
+}
+.btn1 {
+  background-color: #0b69ff;
+}
+.btn2 {
+  background-color: transparent;
+  color: black;
+  width: 150px;
+}
